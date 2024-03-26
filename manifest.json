@@ -1,0 +1,15 @@
+{
+  "short_name": "Quote Generator",
+  "name": "Random Quote Generator",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "type": "image/svg",
+      "sizes": "32x32"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
