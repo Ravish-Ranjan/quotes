@@ -1,7 +1,7 @@
 .App {
 	background-color: white;
 	padding: 2rem;
-	width: min(95%, 500px);
+	width: min(95vmin, 500px);
 	min-height: 2rem;
 	border-radius: 0.5rem;
 	box-shadow: 0.3rem 0.3rem 1rem #333;
@@ -31,14 +31,16 @@
 	height: 2lh;
 	gap: 1rem;
 }
-#whatsapp,#tweet {
+#whatsapp,
+#tweet {
 	padding: 0.5rem 0.5rem;
 	background-color: hsl(var(--accent-col), 50%, 50%);
 	transition: all 1s ease-in-out;
 	border-radius: 0.3rem;
 	display: grid;
 }
-#whatsapp > img,#tweet > img {
+#whatsapp > img,
+#tweet > img {
 	height: 50%;
 }
 button {
@@ -84,18 +86,19 @@ button:last-of-type {
 		padding: 2rem 1rem;
 	}
 }
-@media screen and (prefers-color-scheme:dark) {
-	body{
+@media screen and (prefers-color-scheme: dark) {
+	body {
 		background-color: hsl(var(--accent-col), 40%, 30%);
 	}
-	.App{
+	.App {
 		background-color: hsl(var(--accent-col), 10%, 10%);
 		color: white;
 	}
-	#whatsapp,#tweet {
+	#whatsapp,
+	#tweet {
 		background-color: hsl(var(--accent-col), 40%, 30%);
 	}
-	button{
+	button {
 		background-color: hsl(var(--accent-col), 40%, 30%);
 	}
 }
